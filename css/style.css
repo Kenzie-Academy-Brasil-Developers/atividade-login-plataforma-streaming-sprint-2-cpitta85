@@ -46,30 +46,114 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /* BODY */
 body{
-	
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/background-image.jpg");
+    overflow: hidden;
 }
-/* BODY */
 
-
-/* HEADER */
-header{
-	
+.fundo{ 
+    position: relative;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, 0%);
+    height: 60em;
+    width: 100%;
+    background-color: black;
+    border: none;
+    opacity: 0.5;
 }
-/* HEADER */
 
-
-/* FOOTER */
-footer{}
-/* FOOTER */
-
-
-/* PÁGINA INICIAL */
-main{
-	
+form{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -125%);
+    background-color: rgba(0,0,0,0.7);
+    width: 340px;
+    padding: 40px 70px 150px 60px;
+    color: white;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
-/* PÁGINA INICIAL */
 
+input{
+    font-size: 16px;
+    color: white;
+    background-color: rgb(70, 70, 70);
+    width: 325px;
+    border-style: none;
+    border-radius: 4px;
+    padding: 14px;
+    margin-bottom: 15px;
+}
 
-/* EXTRAS */
+#entrar{
+    background-color:#e50914;
+    font-weight: 700;
+    width: 352px;
+    margin-top: 40px;
+    cursor: pointer;
+}
 
-/* EXTRAS */
+.checkbox{
+    margin-bottom: 10px 30px;
+    position: absolute;
+    left: 17.5%;
+    top: 340px;
+}
+
+#lembre{
+    position: absolute;
+    left: -78%;
+    color: rgb(128, 128, 128);
+    font-size: 14px;;   
+}
+
+label{
+    position: relative;
+    left: 0%;
+    color: rgb(128, 128, 128);
+    font-size: 14px;    
+
+}
+
+#ajuda{
+    font-size: 14px;
+    position: relative;
+    right: -41%;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+
+}
+
+#novoP{
+    margin-top: 100px;
+    color: rgb(128, 128, 128);
+}
+
+#assine{
+    text-decoration: none;
+    color: white;
+}
+
+#essaPagina{
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+    margin-top: -20px;
+}
+
+#saiba{
+    text-decoration: none;
+    color: blue;
+}
+
+img{
+    width: 200px;
+    height: 110px;
+    position: absolute;
+    left: 8%;
+    transform: translate(-50%, -290%);
+    padding: 40px 70px 200px 60px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -3,19 +3,43 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
+
 	<link rel="stylesheet" href="css/style.css">
+
 
 	<title>Netflix</title>
 </head>
 <body>
+	<div class="fundo"></div>
+
 	<header>
-		
+		<img src="../img/netflix.png" alt="cabeçalho netflix">
 	</header>
+
 	<main>
-		
+		<div class="form">
+			<form class="register" method="GET" target="blank">
+				<h1>Entrar</h1>
+				<input id="login" type="text" placeholder="Email ou numero de telefone">
+				<input id="Senha" type="password" placeholder="Senha">
+				<input id="entrar" type="submit" value="Entrar">
+				
+				<div class="checkbox">
+					<input id="lembre" type="checkbox">
+					<label for="lembre">Lembre-se de mim</label>
+					<a id="ajuda" href="https://www.netflix.com/br/LoginHelp" target="blank">Precisa de ajuda?</a>
+				</div>
+				
+				<p id="novoP">Novo por aqui? <a id="assine" href="https://help.netflix.com/pt/node/112419" target="blank">Assine agora.</a></p><br>
+				<p id="essaPagina">Essa pagina é protegida pelo Google reCAPTCHA<br>
+				para garantir que você não é um robô. <a id="saiba" href="https://policies.google.com/privacy" target="blank">Saiba mais.</a></p>
+
+			</form>
+		</div>
 	</main>
-	<footer>
-		
+
+	<footer>		
 	</footer>
+
 </body>
 </html>
